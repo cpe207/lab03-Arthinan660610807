@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    scroll-behavior: smooth;
+    font-family: "Arial", Helvetica, sans-serif;
+}
+
+:root {
+    --bg--color:  #757575;
+    --second-bg-color: #B71C1C;
+    --text-color: white;
+    --main-color: #F44336;
+}
+
+html {
+    font-size: 60%;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: var(--bg--color);
+    color: var(--text-color);
+}
+
+.header {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    padding: 4rem 12%;
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 5;
+}
+
+.logo {
+    font-size: 3rem;
+    color: var(--text-color);
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+.navbar a {
+    font-size: 1.8rem;
+    color: var(--text-color);
+    margin-left: 4rem;
+    font-weight: 500;
+    transition: 0.3s ease;
+    border-bottom: 3px solid transparent;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: var(--main-color);
+    border-bottom: 3px solid var(--main-color);
+}
+
+header {
+    text-align: center;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.contianer{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.contianerVer{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+
+.image-frame {
+    border: 5px solid #000000;
+    padding: 10px;
+    background-color: #212121; 
+    display: inline-block;
+}
+
+
+.text{
+    background-color:  #424242;
+    border: 13px solid #424242;
+    display: inline-block
+    
+}
+
+.text h1{ 
+    font-size: 500%;
+}
+
+.text h2{ font-size: 350%;
+}
+
+.text h3{ font-size: 250%;
+}
+
+.my-rounded-left {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+  
+  .my-rounded-right {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  
+  .my-rounded-all {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+
+  
